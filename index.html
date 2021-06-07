@@ -1,0 +1,2312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GG-Font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FONT ICON -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <!-- BS4 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- SLICK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css" integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+    <!-- End Slick -->
+    <!-- Video -->
+    <link rel="stylesheet" href="./css/venobox.css">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Tix</title>
+</head>
+
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="header__navbar navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/web-logo.png" alt="" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="myNavBar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="#">Lịch Chiếu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Cụm rạp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tin tức</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Ứng dụng</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="header__right">
+                    <div class="header__account">
+                        <img src="./img/avatar.png" alt="">
+                        <a href="#">Đăng Nhập</a>
+                    </div>
+                    <div class="header__location dropdown">
+
+                        <p type="button" class="dropdown-toggle" data-toggle="dropdown">
+                            <img src="./img/location-header.png" alt=""> Hồ Chí Minh
+                            <span class="fa fa-angle-down"></span>
+                        </p>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Hồ Chí Minh</a>
+                            <a class="dropdown-item" href="#">Hà Nội</a>
+                            <a class="dropdown-item" href="#">Hải Phòng</a>
+                            <a class="dropdown-item" href="#">Đà Nẵng</a>
+                            <a class="dropdown-item" href="#">Biên Hòa</a>
+                            <a class="dropdown-item" href="#">Nha Trang</a>
+                            <a class="dropdown-item" href="#">Bình Dương</a>
+                            <a class="dropdown-item" href="#">Phan Thiết</a>
+                            <a class="dropdown-item" href="#">Hạ Long</a>
+                            <a class="dropdown-item" href="#">Cần Thơ</a>
+                            <a class="dropdown-item" href="#">Vũng Tàu</a>
+                        </div>
+
+                    </div>
+                </div>
+        </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Carousel -->
+    <section class="carousel">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <a href="/detail.html">
+                        <img src="./img/trang-ti-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-item__overlay"></div>
+                        <div class="carousel__img">
+                            <button id="btnCick" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=l2XBzUZidig&t=9s">
+                                <img src="./img/play-video.png" alt="">
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="./img/ban-tay-diet-quy.png" class="d-block w-100" alt="...">
+                        <div class="carousel-item__overlay"></div>
+                        <div class="carousel__img">
+                            <button id="btnCick" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=uqJ9u7GSaYM">
+                            <img src="./img/play-video.png" alt="">
+                            </button>
+                        </div>
+                    </a>
+                </div>
+                <div class="carousel-item">
+                    <a href="#">
+                        <img src="./img/lat-mat-48h.png" class="d-block w-100" alt="...">
+                        <div class="carousel-item__overlay"></div>
+                        <div class="carousel__img">
+                            <button id="btnCick" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=kBY2k3G6LsM">
+                                <img src="./img/play-video.png" alt="">
+                            </button>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true">
+
+                </span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </section>
+    <!-- End Carousel -->
+    <!-- showing -->
+    <section class="showing">
+        <div class="row showing__tools ">
+            <div class="dropdown select__film col-4">
+                <a class=" dropdown-toggle" type="button" id="dropdownMovie" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Phim <span class="fa fa-angle-down"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownMovie">
+                    <a class="dropdown-item" href="#">Trạng Tý Phưu Lưu Ký</a>
+                    <a class="dropdown-item" href="#">Lật Mặt: 48h</a>
+                    <a class="dropdown-item" href="#">Thiên Thần Hộ Mệnh - The Guardian(C18)</a>
+                </div>
+            </div>
+            <div class="dropdown select__cinema col-2">
+                <a class=" dropdown-toggle" type="button" id="dropdownCinema" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Rạp <span class="fa fa-angle-down"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownCinema">
+
+                </div>
+            </div>
+            <div class="dropdown select__date col-2">
+                <a class=" dropdown-toggle" type="button" id="dropdownCinema" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Ngày xem <span class="fa fa-angle-down"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownCinema">
+                    <sapn class="dropdown-item">Vui lòng chọn phim và ngày</sapn>
+                </div>
+            </div>
+            <div class="dropdown select__session col-2">
+                <a class=" dropdown-toggle" type="button" id="dropdownCinema" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Suất chiếu <span class="fa fa-angle-down"></span>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="dropdownCinema">
+                    <sapn class="dropdown-item">Vui lòng chọn phim, rạp và ngày xem</sapn>
+                </div>
+            </div>
+            <div class="col-2 btn__muave ">
+                MUA VÉ NGAY
+            </div>
+        </div>
+        <div class="showing__content">
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#nowShowing" role="tab" aria-controls="home" aria-selected="true">Đang chiếu</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#commingSoon" role="tab" aria-controls="profile" aria-selected="false">Sắp chiếu</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="nowShowing" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="slickmovie__nowshowing">
+                        <div class="slickmovie__list ">
+                            <div class="row my-5 ">
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="/detail.html">
+                                            <img src="./img/h6.jpg " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btnCick" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=l2XBzUZidig&t=9s">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>6.2</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Trạng Tí Phưu Lưu Ký</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h7.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btnCick" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=kBY2k3G6LsM">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>7.8</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>Lật mặt: 48h</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h8.jpg " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=1H-2FeFOM08">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>7.5</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>Thiên Thần Hộ Mệnh - The Guardian(C18)</span>
+                                        </div>
+                                        <p>124 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h9.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=yk6oRXj1MOI">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>8.8</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C13</span>
+                                            <span>Detective Conan: Scarlet Bullet - Thám Tử Lừng Danh Conan: Viên Đạn Đỏ
+                                                - C13</span>
+                                        </div>
+                                        <p>110 phút - 6.6 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h10.jpg " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=eFf0nos163o">
+                                                    <img src="./img/play-video.png " alt="" >
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>7.7</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C16</span>
+                                            <span>Người Nhân Bản - Seobok (C16)</span>
+                                        </div>
+                                        <p>114 phút - 6.3 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h11.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=uqJ9u7GSaYM&t=25s">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>8.8</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C16</span>
+                                            <span>Bàn Tay Diệt Quỷ - Evil Expeller (C16)</span>
+                                        </div>
+                                        <p>129 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h12.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=fVTJKPIz7xQ">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>8.5</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>Kẻ Vô Danh - Nobody - C18</span>
+                                        </div>
+                                        <p>92 phút - 7.4 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h13.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=yHSNsUnLaaA">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>5.5</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>Hùng Thần Trắng - Great White - C18</span>
+                                        </div>
+                                        <p>100 phút - 3.9 IMDb</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slickmovie__list ">
+                            <div class="row my-5 ">
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/chien-binh-cuoi-cung-cuoi-.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=e-TTjPlJvMc">
+                                                <img src="./img/play-video.png " alt=" ">
+                                            </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>5.5</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C13</span>
+                                            <span>Chiến Binh Cuối Cùng: Cuội Nguồn Của Quỷ - The Last Warrior: Root Of
+                                                Evil - C13</span>
+                                        </div>
+                                        <p>122 phút - 5.9 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h1.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=RVzlfJ2vWLY">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>8.8</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Ong Nhí Phiêu Lưu Ký: Giải Cứu Công Chúa Kiến - Maya The Bee 3: The
+                                                Golden Orb - P</span>
+                                        </div>
+                                        <p>88 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h2.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=-tC6Rzbi4PA">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>8.8</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C13</span>
+                                            <span>Nhân Đôi Tình Yêu - Double Party - C13</span>
+                                        </div>
+                                        <p>107 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h3.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=mLBRFOpv_js">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>7.6</p>
+                                            <p>
+
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>Trùm Cuối Siêu Đẳng - Boss Level - C18</span>
+                                        </div>
+                                        <p>100 phút - 6.9 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h4.png " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=kvPlRDgxwxQ">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>5.5</p>
+                                            <p>
+
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>The Hypnosis - Con Lắc Tà Thuật - C18</span>
+                                        </div>
+                                        <p>110 phút - 4.8 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <a href="#">
+                                            <img src="./img/h5.jpg " alt=" ">
+                                            <div class="showing__overlay ">
+                                                <button id="btn-click" class="venobox" data-vbtype="video" data-href="https://www.youtube.com/watch?v=odM92ap8_c0">
+                                                    <img src="./img/play-video.png " alt=" ">
+                                                </button>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="showing__avgPoint ">
+                                        <span>
+                                            <p>8.3</p>
+                                            <p>
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.png " alt=" ">
+                                                <img src="./img/star1.2.png " alt=" ">
+                                            </p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C13</span>
+                                            <span>Godzilla vs. Kong</span>
+                                        </div>
+                                        <p>100 phút - 6.5 IMDb</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sliderPane tab-pane fade show active" id="commingSoon" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="slickmovie__commingsoon">
+                        <div class="slickmovie__list">
+                            <div class="row my-5 ">
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc35.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>05/03</p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Biệt Đội Săn Ma Chuyển Kiếp - Ghostbusters Afterlife</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc20.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>01/04</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Em và Trịnh</span>
+                                        </div>
+                                        <p>0 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc36.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>02/04</p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__film__type__lable ">
+                                        <img src="./img/film_type_1.png " alt=" ">
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Fast & Furious 9</span>
+                                        </div>
+                                        <p>100 phút - 5.6 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc38.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>21/04</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Tà Năng Phan Dũng</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc22.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>30/04</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C16</span>
+                                            <span>1990(C16)</span>
+                                        </div>
+                                        <p>120 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc17.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>07/05</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Shang-Chi and the Legend of the Ten Rings</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc18.png " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>14/05</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Đứa Bé - I </span>
+                                        </div>
+                                        <p>114 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc15.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>21/05</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>John Wick: Chapter 4</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slickmovie__list">
+                            <div class="row my-5 ">
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc16.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>05/03</p>
+            
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>The Matrix 4</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc13.png " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>28/05</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Cruella</span>
+                                        </div>
+                                        <p>0 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc14.png " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>01/06</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Chú ngựa bất kham- Spirit - P</span>
+                                        </div>
+                                        <p>0 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc11.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>04/06</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Ám Ảnh Kinh Hoàng 3 - The Conjuring The Devil Made Me Do It (C18)</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc12.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>11/06</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Jurassic World: Dominion</span>
+                                        </div>
+                                        <p>0 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc9.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>18/06</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>In the Heights</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc8.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>25/06</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Venom: Let There Be Carnage</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc6.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>02/07</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Minions: Sự Trỗi Dậy Của Gru</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slickmovie__list">
+                            <div class="row my-5 ">
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc5.png " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>05/07</p>
+            
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>The Night - Đêm Trói Buộc - C18</span>
+                                        </div>
+                                        <p>105 phút - 5.6 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc2.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>30/07</p>
+            
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C16</span>
+                                            <span>Chìa Khóa Trăm Tỷ - C16</span>
+                                        </div>
+                                        <p>0 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc4.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>30/07</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Jungle Cruise</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc39.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>06/08</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>The Suicide Squad</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc40.png " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>13/08</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span>C18</span>
+                                            <span>578- Phát Đạn Của Kẻ Điên - C18</span>
+                                        </div>
+                                        <p>0 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc41.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>01/10</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Dune</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc42.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>01/10</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>The Batman</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc43.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>05/11</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Spiedr-Man 3</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slickmovie__list">
+                            <div class="row my-5 ">
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc44.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>12/11</p>
+            
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Fantastic Beast 3</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc29.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>30/11</p>
+            
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Số Đỏ</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc28.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>17/12</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Avatar 2</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc30.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>22/12</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Sherlock Holmes 3</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc31.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>22/12</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Black Adam</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc32.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>22/12</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Sing 2</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc33.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>18/12</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Thor: Love and  Thunder</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc34.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>25/03</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Doctor Strange in the Multiverse of Madness</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slickmovie__list">
+                            <div class="row my-5 ">
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc24.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>06/05</p>
+            
+                                        </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Black Panther 2</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc46.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                            <p>03/06</p>
+                                        </span>
+                                    </div>
+                                    <div class="showing__film__type__lable ">
+                                        <img src="./img/film_type_1.png " alt=" ">
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>The Flash</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc23.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>08/07</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Caption Marvel 2</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc48.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>29/07</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Idiana Jones 5</span>
+                                        </div>
+                                        <p>100 phút - 6 IMDb</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc19.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>07/10</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Spider-Man: Into the Spider-Verse 2</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc47.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>04/11</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Shazam 2</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                                <div class="col-3 showing__item ">
+                                    <div class="showing__img ">
+                                        <img src="./img/sc1.jpg " alt=" ">
+                                        <div class="showing__overlay ">
+                                            <img src="./img/play-video.png " alt=" ">
+                                        </div>
+                                    </div>
+                                    <div class="showing__avgPoint_sapchieu ">
+                                        <span>
+                                        <p>16/12</p>
+                                        
+                                    </span>
+                                    </div>
+                                    <div class="showing__info ">
+                                        <div class="show__info__text ">
+                                            <span class="show__info_text_P ">P</span>
+                                            <span>Aquaman 2</span>
+                                        </div>
+                                        <p>100 phút</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ENd showing -->
+    <!-- List -->
+    <section class="list">
+        <div class="list__content">
+            <div class="list__cinema">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="bhd-tab" data-toggle="pill" href="#bhd" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                                <img src="./img/bhd.png" alt="">
+                            </a>
+                            <a class="nav-link" id="galaxy-tab" data-toggle="pill" href="#galaxy" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                                <img src="./img/galaxy.png" alt="">
+                            </a>
+                            <a class="nav-link" id="bata-tab" data-toggle="pill" href="#bata" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                                <img src="./img/bata.png" alt="">
+                            </a>
+                            <a class="nav-link" id="dongda-tab" data-toggle="pill" href="#dongda" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                <img src="./img/dongdacinema.png" alt="">
+                            </a>
+                            <a class="nav-link" id="megags-tab" data-toggle="pill" href="#mega" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                <img src="./img/megags.png" alt="">
+                            </a>
+                            <a class="nav-link" id="dcine-tab" data-toggle="pill" href="#dcine" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                <img src="./img/dcine.png" alt="">
+                            </a>
+                            <a class="nav-link" id="lotte-tab" data-toggle="pill" href="#lotte" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                                <img src="./img/lotte.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="bhd" role="tabpanel" aria-labelledby="bhd-tab">
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct1.png" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__Bhd">BHD Star</span> - Bitexco</span>
+                                        <span class="address__movie__cinema">L3-Bitexco Icon 68, 2 Hải Triều, Q.1</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row">
+                                    <div class="col-3">
+                                        <img src="./img/ct2.png" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__Bhd">BHD Star</span> - vincom Thảo Điền</span>
+                                        <span class="address__movie__cinema">L5-Megamall, 159 XL Hà Nội, Q.2</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row">
+                                    <div class="col-3">
+                                        <img src="./img/ct3.png" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__Bhd">BHD Star</span> - Vincom 3/2</span>
+                                        <span class="address__movie__cinema">L5-Vincom 3/2, 3C Đường 3/2, Q.10</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row">
+                                    <div class="col-3">
+                                        <img src="./img/ct4.png" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__Bhd">BHD Star</span> - Phạm Hùng</span>
+                                        <span class="address__movie__cinema">L4-Satra Phạm Hùng, C6/27 Phạm Hùng, Bình Chánh</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row">
+                                    <div class="col-3">
+                                        <img src="./img/ct5.png" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__Bhd">BHD Star</span> - Vincom Quang Trung</span>
+                                        <span class="address__movie__cinema">B1-Vincom QT, 190 Quang Trung, Gò Vấp</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row">
+                                    <div class="col-3">
+                                        <img src="./img/ct6.png" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__Bhd">BHD Star</span> - Vincom Lê Văn Việt</span>
+                                        <span class="address__movie__cinema">L4-Vincom Plaza, 50 Lê Văn Việt, Q.9</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="galaxy" role="tabpanel" aria-labelledby="galaxy-tab">
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct7.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__cns">CNS</span> - Hai Bà Trưng</span>
+                                        <span class="address__movie__cinema">135 Hai Bà Trưng, Bến Nghé, Q.1</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row">
+                                    <div class="col-3">
+                                        <img src="./img/ct8.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__cns">CNS</span> - Quốc Thanh</span>
+                                        <span class="address__movie__cinema">271 Nguyễn Trãi, Q.1</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="bata" role="tabpanel" aria-labelledby="bata-tab">
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct18.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__bata">Beta Cinemas</span> - Quang Trung</span>
+                                        <span class="address__movie__cinema">135 Hai Bà Trưng, Bến Nghé, Q.1</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="dongda" role="tabpanel" aria-labelledby="dongda-tab">
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct10.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__ddc">DDC</span> - Đống Đa</span>
+                                        <span class="address__movie__cinema">890 Trần Hưng Đạo, Q.5</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="mega" role="tabpanel" aria-labelledby="megags-tab">
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct11.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__mgs">Mega GS</span> - Cao Thắng</span>
+                                        <span class="address__movie__cinema">19 Cao Thắng, Q.3</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="dcine" role="tabpanel" aria-labelledby="dcine-tab">
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/dcine.png" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__dcine">Dcine</span> - Bến Thành</span>
+                                        <span class="address__movie__cinema">6 Mạc Đĩnh Chi, Bến Nghé, Quận 1, Hồ Chí Minh</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="lotte" role="tabpanel" aria-labelledby="lotte-tab">
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct12.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__lotte">Lotte</span> - Phú Thọ</span>
+                                        <span class="address__movie__cinema">L4-Lotte Mart Phú Thọ, Q.11</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct13.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__lotte">Lotte</span> - Nam Sài Gòn</span>
+                                        <span class="address__movie__cinema">L3-Lotte Mart NSG, 469 Nguyễn Hữu Thọ, Q.7</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct14.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__lotte">Lotte</span> - Gò Vấp</span>
+                                        <span class="address__movie__cinema">L3-Lotte Mart, 242 Nguyễn Văn Lượng, Gò Vấp</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct15.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__lotte">Lotte</span> - Thủ Đức</span>
+                                        <span class="address__movie__cinema">L2-Joy Citipoint, KCX Linh Trung, Thủ Đức</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct16.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__lotte">Lotte</span> - Cộng Hòa</span>
+                                        <span class="address__movie__cinema">L4-Pico Plaza, 20 Cộng Hòa, Tân Bình</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                                <div class="cinema__info row active">
+                                    <div class="col-3">
+                                        <img src="./img/ct17.jpg" alt="" class="img__movie__cinema">
+                                    </div>
+                                    <div class="col-9">
+                                        <span class="name__movie__cinema"><span class="color__lotte">Lotte</span> - Cantavil</span>
+                                        <span class="address__movie__cinema">L7-Cantavil Premier, Xa Lộ Hà Nội, Q.2</span>
+                                        <span class="detail__movie__cinema">[chi tiết]</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <p>Không có xuất chiếu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End List -->
+    <!-- Detail -->
+    <section class="Detail">
+        <div class="detail__content">
+            <ul class="nav nav-tabs" id="myTabDetail" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#dienanh" role="tab" aria-controls="dienanh" aria-selected="true">Điện ảnh 24h</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#review" role="tab" aria-controls="review" aria-selected="false">Review</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="contact-tab" data-toggle="tab" href="#khuyenmai" role="tab" aria-controls="khuyenmai" aria-selected="false">Khuyến Mãi</a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContentDetail">
+                <div class="tab-pane fade show active" id="dienanh" role="tabpanel" aria-labelledby="home-tab">
+                    <div class="row mt-5 mb-3 detail__text">
+                        <div class="col-6">
+                            <img src="./img/dt1.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>Ấn định chắc nịch ngày khởi chiếu 16.04, Lý Hải tung clip Lật Mặt: 48H đậm chất </span>
+                            </a>
+                            <p class="detail__description">
+                                Trước thềm khởi chiếu 16.04 này, Lý Hải bất ngờ tung clip rượt đuổi gay cấn thót tim fans hâm mộ.
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>0</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/dt2.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>[MORTAL KOMBAT: CUỘC CHIẾN SINH TỬ] -  GỌI TÊN NHỮNG PHIM ĐIỆN ẢNH NỔI TIẾNG ĐƯỢC CHUYỂN THỂ TỪ CÁC TỰA GAME ĐÌNH ĐÁM </span>
+                            </a>
+                            <p class="detail__description">
+                                Bên cạnh những kịch bản gốc mới mẻ và đầy bất ngờ, Hollywood cũng không thiếu những tác phẩm đình đám được chuyển thể từ tiểu thuyết, phim hoạt hình, hay thậm chí là cả trò chơi điện tử.
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row detail__text">
+                        <div class="col-4">
+                            <img src="./img/dt3.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>PROMISING YOUNG WOMAN | Bông hồng nước Anh Carey Mulligan và màn trả thù đàn ông để đời </span>
+                            </a>
+                            <p class="detail__description">
+                                Đề cử giải Oscar danh giá vừa gọi tên Carey Mulligan ở hạng mục nữ chính xuất sắc nhất cho vai diễn "đẫm máu" nhất sự nghiệp của cô trong phim
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="./img/dt4.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>VỪA ĐẸP LẠI VỪA TÀI NĂNG, DÀN SAO NAM CỦA PHIM “BÀN TAY DIỆT QUỶ” ĐẢM BẢO ĐỐN TIM HỘI CHỊ EM</span>
+                            </a>
+                            <p class="detail__description">
+                                Quy tụ 3 nam tài tử vừa điển trai, vừa được đánh giá cao về năng lực diễn xuất là Park Seo Joon, Woo Do Hwan và Choi Woo Sik, tác phẩm kinh dị – hành
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt5.jpg" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>Khai trương rạp xịn giá ngon, chuẩn xì-tai Sài Gòn</span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt6.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>“Bóc tem” tổ hợp giải trí mới toanh của giới Hà Thành</span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt7.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>Tiệc Trăng Máu chính thức cán mốc 100 tỷ chỉ sau 2 tuần công chiếu </span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt8.jpg " alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>NGÔ THANH VÂN CHÍNH THỨC KHỞI ĐỘNG CUỘC THI THIẾT KẾ TRANG PHỤC CHO SIÊU ANH HÙNG ĐẦU TIÊN CỦA VIỆT NAM – VINAMAN</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-12">
+                        <button class="btn__viewmore">XEM THÊM</button>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="review" role="tabpanel" aria-labelledby="profile-tab">
+                    <div class="row mt-5 mb-3 detail__text">
+                        <div class="col-6">
+                            <img src="./img/dt9.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>Review: Tàn Tích Quỷ Ám (Relic) - Ba thế hệ và mối liên kết</span>
+                            </a>
+                            <p class="detail__description">
+                                Điểm nhấn của phim kinh dị năm 2020 chính là Tàn Tích Quỷ Ám.
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>0</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/dt10.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>Review: Dinh Thự Oan Khuất (Ghost Of War) </span>
+                            </a>
+                            <p class="detail__description">
+                                Tuy là một bộ phim có chất lượng tốt, nhưng có vẻ Dinh Thự Oan Khuất vẫn chưa đủ để đem khán giả trở lại phòng vé!
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>1</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row detail__text">
+                        <div class="col-4">
+                            <img src="./img/dt12.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>‘BlacKkKlansman’ - cốc nước lạnh để người Mỹ thức tỉnh </span>
+                            </a>
+                            <p class="detail__description">
+                                Tác phẩm nhận đề cử Phim truyện xuất sắc tại Oscar 2019 của đạo diễn Spike Lee là một lát cắt nữa về nạn phân biệt chủng tộc - nỗi đau gây nhức
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>0</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="./img/dt11.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>American Sniper - Chính nghĩa hay phi nghĩa?</span>
+                            </a>
+                            <p class="detail__description">
+                                American Sniper khắc họa một tay súng bắn tỉa “huyền thoại” của Hải quân Mỹ với 4 lần tham chiến ở Trung Đông. Câu chuyện phim chậm rãi đưa người
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>0</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt13.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>Review: Spider-Man: Into The Spider-Vesre </span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt14.jpg" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>COVID-19 là bản chính thức của MEV-1 phim contagion (2011)</span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt15.jpg" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>[Review] Siêu Vệ Sĩ Sợ Vợ - Giải cứu Tổng thống chưa bao giờ lầy lội và hài hước đến thế </span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt16.jpg " alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>[Review] Siêu Vệ Sĩ Sợ Vợ - Giải cứu Tổng thống chưa bao giờ lầy lội và hài hước đến thế</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-12">
+                        <button class="btn__viewmore">XEM THÊM</button>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="khuyenmai" role="tabpanel" aria-labelledby="contact-tab">
+                    <div class="row mt-5 mb-3 detail__text">
+                        <div class="col-6">
+                            <img src="./img/dt17.jpg" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>BHD 59K/VÉ CẢ TUẦN !!!</span>
+                            </a>
+                            <p class="detail__description">
+                                Tận hưởng Ưu Đãi lên đến 3 VÉ BHD Star mỗi tuần chỉ với giá 59k/vé khi mua vé trên TIX hoặc Mục Vé Phim trên ZaloPay.
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>2</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="./img/dt18.jpg" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>TIX 1K/VÉ NGẠI CHI GIÁ VÉ </span>
+                            </a>
+                            <p class="detail__description">
+                                Đồng giá 1k/vé cả tuần tất cả các rạp trên TIX + Nhận thêm 02 voucher thanh toán ZaloPay thả ga.
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row detail__text">
+                        <div class="col-4">
+                            <img src="./img/dt19.png" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>ĐỒNG GIÁ 1K/VÉ KHI MUA VÉ QUA TIX </span>
+                            </a>
+                            <p class="detail__description">
+                                ĐỒNG GIÁ 1K/VÉ KHI MUA VÉ QUA TIX Hành trình tìm Ròm và Phúc chỉ với 1k cả tuần + nhận thêm 02 voucher khi đặt vé qua TIX.
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>4</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <img src="./img/dt20.jpg" alt="" class="img-fluid">
+                            <a href="#">
+                                <span>BHD STAR VÉ CHỈ 59.000Đ CẢ TUẦN!</span>
+                            </a>
+                            <p class="detail__description">
+                                Tận hưởng Ưu Đãi lên đến 3 VÉ BHD Star mỗi tuần chỉ với giá 59k/vé khi mua vé trên TIX và thanh toán bằng ZaloPay hoặc Mục Vé Phim trên ZaloPay.
+                            </p>
+                            <div class="detail__icon row">
+                                <div class="detail__icon__like">
+                                    <img src="./img/like.png" alt="">
+                                    <span>0</span>
+                                </div>
+                                <div class="detail__icon__comment">
+                                    <img src="./img/comment.png" alt="">
+                                    <span>0</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt21.png" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>Beta Cineplex trở lại với hàng loạt ưu đãi lớn</span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt22.jpg" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>[123Phim] Thứ 6 Không Đen Tối -  Ưu đãi huỷ diệt 11k/vé Anh Trai Yêu Quái</span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt23.jpg" alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>[123Phim] NHẬP MÃ 'PSM30K' - Giảm ngay 30k khi đặt vé Pháp Sư Mù: Ai Chết Giơ Tay </span></a>
+                                </div>
+                            </div>
+                            <div class="row detail__general">
+                                <div class="col-3">
+                                    <img src="./img/dt24.jpg " alt="">
+                                </div>
+                                <div class="col-9">
+                                    <a href=""><span>[Mega GS] Một đoá hoa thay ngàn lời yêu</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-12">
+                        <button class="btn__viewmore">XEM THÊM</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Detail -->
+    <!-- Discover -->
+    <section class="Discover">
+        <div class="discover__content ">
+            <div class="row">
+                <div class="col-6 discover__text">
+                    <p class="text__left">Ứng dụng tiện lợi dành cho</p>
+                    <p class="text__left">người yêu điện ảnh</p>
+                    <p class="text__small">Không chỉ đặt vé, bạn còn có thể bình luận phim, chấm điểm rạp và đổi quà hấp dẫn.</p>
+                    <button class="btn__discover">App miễn phí - Tải về ngay!</button>
+                    <p class="text__under">TIX có hai phiên bản <a href="">IOS</a> & <a href="">Android</a></p>
+                </div>
+                <div class="col-6">
+                    <img src="./img/mobile.png" alt="" class="phone__img">
+                    <div class="slider__screem">
+                        <div class="slider__screem__item">
+                            <img src="./img/slide1.jpg" alt="">
+                            <img src="./img/slide2.jpg" alt="">
+                            <img src="./img/slide3.jpg" alt="">
+                            <img src="./img/slide4.jpg" alt="">
+                            <img src="./img/slide5.jpg" alt="">
+                            <img src="./img/slide6.jpg" alt="">
+                            <img src="./img/slide7.jpg" alt="">
+                            <img src="./img/slide9.jpg" alt="">
+                            <img src="./img/slide10.jpg" alt="">
+                            <img src="./img/slide11.jpg" alt="">
+                            <img src="./img/slide12.jpg" alt="">
+                            <img src="./img/slide13.jpg" alt="">
+                            <img src="./img/slide14.jpg" alt="">
+                            <img src="./img/slide15.jpg" alt="">
+                            <img src="./img/slide16.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Discover -->
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer__content">
+            <div class="row">
+                <div class="col-4">
+                    <p class="title__footer">TIX</p>
+                    <div class="row">
+                        <div class="col-6 footer__link">
+                            <a href="#"> FAQ</a>
+                            <br>
+                            <a href="#">Brand Guidelines</a>
+                        </div>
+                        <div class="col-6 footer__link">
+                            <a href="#">Thỏa thuận sử dụng</a>
+                            <a href="#">Chính sách bảo mật</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <p class="title__footer">ĐỐI TÁC</p>
+                    <div class="row col-12 img__footer">
+                        <a href="#">
+                            <img src="./img/cgv.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f2.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f3.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f4.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/lotte.png" alt="" class="icon__connect">
+                        </a>
+                    </div>
+                    <div class="row col-12 img__footer">
+                        <a href="#">
+                            <img src="./img/f5.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f6.jpg" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f7.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f8.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f9.jpg" alt="" class="icon__connect">
+                        </a>
+                    </div>
+                    <div class="row col-12 img__footer">
+                        <a href="#">
+                            <img src="./img/f10.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f11.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/zalopay_icon.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/payoo.jpg" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f12.png" alt="" class="icon__connect">
+                        </a>
+                    </div>
+                    <div class="row col-12 img__footer">
+                        <a href="#">
+                            <img src="./img/f13.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f14.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/IVB.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/123go.png" alt="" class="icon__connect">
+                        </a>
+                        <a href="#">
+                            <img src="./img/f15.png" alt="" class="icon__connect">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-6 footer__app">
+                            <p class="title__footer">MOBILE APP</p>
+                            <a href="#">
+                                <img src="./img/apple-logo.png" alt="" class="icon__app">
+                            </a>
+                            <a href="#">
+                                <img src="./img/android-logo.png" alt="" class="icon__app">
+                            </a>
+                        </div>
+                        <div class="col-6 footer__app">
+                            <p class="title__footer">SOCIAL</p>
+                            <a href="#">
+                                <img src="./img/facebook-logo.png" alt="" class="icon__app">
+                            </a>
+                            <a href="#">
+                                <img src="./img/zalo-logo.png" alt="" class="icon__app">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer__hr">
+            <div class="row">
+                <div class="col-1">
+                    <img src="./img/zion-logo.jpg" alt="" class="zion__img">
+                </div>
+                <div class="col-9 footer__info">
+                    <span>TIX – SẢN PHẨM CỦA CÔNG TY CỔ PHẦN ZION</span>
+                    <span>Địa chỉ: Z06 Đường số 13, Phường Tân Thuận Đông, Quận 7, Tp. Hồ Chí Minh, Việt Nam.</span>
+                    <span>Giấy chứng nhận đăng ký kinh doanh số: 0101659783,<br>đăng ký thay đổi lần thứ 30, ngày 22 tháng 01 năm 2020  do Sở kế hoạch và đầu tư Thành phố Hồ Chí Minh cấp.</span>
+                    <span>Giấy chứng nhận đăng ký kinh doanh số: 0101659783,<br>Email: <a href="#" >support@tix.vn</a></span>
+                </div>
+                <div class="col-2">
+                    <a href="#">
+                        <img src="./img/dathongbao.png" alt="" class="img__boco">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <!-- JQUERY -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+    <!-- ENd JQUERY -->
+    <!-- SLICK -->
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
+    <script>
+        $(".slickmovie__nowshowing").slick({
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+        });
+        $(".slickmovie__commingsoon").slick({
+            infinite: true,
+            speed: 500,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            autoplay: false,
+        });
+
+        window.onload = function() {
+            var arrayPane = document.getElementsByClassName("sliderPane");
+            for (var i = 0; i < arrayPane.length; i++) {
+                arrayPane[i].classList.remove("show", "active");
+            }
+        };
+    </script>
+    <script>
+        $('.slider__screem__item').slick({
+            autoplay: true
+        });
+    </script>
+    <!-- End Slick -->
+    <!-- Video -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/venobox/1.9.2/venobox.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".venobox").venobox();
+        });
+    </script>
+</body>
+
+</html>
